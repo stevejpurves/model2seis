@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#This script models shots for the Marmousi data set using sufdmod2.
+#This script models shots using sufdmod2.
 #It has to be looped becuase the algorithm only models one shot
 #at a time. 
 
-fold=/home/graham/diss
+fold=.
 delx=25
 delz=25
 numShot=191
