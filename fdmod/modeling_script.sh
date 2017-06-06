@@ -7,7 +7,7 @@
 fold=../dat
 delx=25
 delz=25
-numShot=50
+numShot=500
 dShot=1
 out=output.su
 

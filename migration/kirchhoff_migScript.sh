@@ -6,7 +6,7 @@ mig=mig_kirchhoff.su
 tt=travTime.bin
 vel=simple.bin
 
-rayt2d vfile=$fold/$vel tfile=$fold/$tt dt=.004 nt=1000 fz=0 nz=250 dz=25 \
+rayt2d vfile=$fold/$vel tfile=$fold/$tt dt=.004 nt=2000 fz=0 nz=250 dz=25 \
        fx=0 nx=500 dx=25 fxs=0 nxs=500 dxs=25 ms=100
 
 sukdmig2d infile=$fold/$data outfile=$fold/$mig ttfile=$fold/$tt \
