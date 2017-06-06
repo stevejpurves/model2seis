@@ -6,11 +6,14 @@
 STARTTIME=$(date +%s)
 fold=/mnt/y/Hackathon/model2seis/jesper
 
-delx=25
+delx=15
 delz=25
-numShot=30
-dShot=2
+numShot=35
+dShot=1
 out=output
+
+#ibm2float < simple.su > simpleswap.su
+#transp n1=500 < simpleswap.su > test.bin
 
 rm $fold/$out*
 
@@ -18,9 +21,9 @@ foo () {
 	shotx=$(($1*$dShot*$delx))
 	shotz=$((1*$delz))
 	echo -e "\nShot number $index1 at x location: $shotx meters"
-	sufdmod2 <$fold/test.bin > /dev/null nx=500 nz=250 xs=$shotx zs=$shotz \
-		 tmax=4 hsz=15 hsfile=$fold/hsfile$1.su abs=0,1,1,1 verbose=0 dx=$delx \
-		 dz=$delz fmax=150
+	sufdmod2_pml <$fold/test.bin > /dev/null nx=500 nz=250 xs=$shotx zs=$shotz \
+		 tmax=2 hsz=15 hsfile=$fold/hsfile$1.su abs=0,1,1,1 verbose=0 dx=$delx \
+		 dz=$delz fmax=250
 	sushw < $fold/hsfile$1.su a=$1 key=ep >> $fold/$out$1
 	rm hsfile$1.su
 }
