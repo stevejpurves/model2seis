@@ -1,3 +1,7 @@
 *.su
 *.bin
 *.png
+*.npy
+*.npz
+*.npyz
+*.npy
