@@ -16,18 +16,22 @@ def extractSlicesFromBlock(model, steps, filename_stub):
         slice = np.transpose(np.squeeze(model[:,n,:]))
         filename = filename_stub+'xz'+str(n)
         saveAsPng(fig, ax,slice, filename)
-        with open(filename+'.su', 'wb+') as f:
-            f.write(slice.byteswap().tobytes())
+        np.save(filename+'.npz', slice.astype(float))
+        #with open(filename+'.su', 'wb+') as f:
+          #  f.write(slice.byteswap().tobytes())
     # save out y-z sections
     for n in range(0, model.shape[2], steps[1]):
         slice = np.transpose(np.squeeze(model[:,:,n]))
         filename=filename_stub+'yz'+str(n);
-        saveAsPng(fig, ax,slice, filename)
-        with open(filename+'.su', 'wb+') as f:
-            f.write(slice.byteswap().tobytes())
+        saveAsPng(fig, ax, slice, filename)
+        np.save(filename+'.npz', slice.astype(float))
+        # with open(filename+'.su', 'wb+') as f:
+        #    f.write(slice.astype(float).byteswap().tobytes())
             
 def loadBlock(model_name, block_shape, cube_size):
     model = np.genfromtxt(model_name+".g01", dtype='float')
+    print("initial model shape", model.shape)
+    print("target block shape", block_shape)
     block_size = map(lambda x: x/cube_size, block_shape) # must match that in history file
     model = model.reshape(block_size)
     return model

@@ -5,3 +5,11 @@
 *.npz
 *.npyz
 *.npy
+*.g*
+*.mod
+*.zip
+*.txt
+*.pyc
+model/models_*/
+model/.ipynb_checkpoints/
+model/data_*/
