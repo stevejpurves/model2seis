@@ -1,0 +1,1558 @@
+
+ RAYT2D parameters
+ ================
+ vfile=../dat/simple.bin 
+ tfile=../dat/travTime.bin 
+ one-way time: dt=0.004 nt=4000 
+ nz=250 fz=0 dz=25
+ nx=500 fx=0 dx=25
+ nzo=250 fzo=0 dzo=25
+ nxo=500 fxo=0 dxo=25
+ nxs=500 fxs=0 dxs=25
+ mx=500 aperx=6262.5 
+ na=61 fa=-60 da=2
+ amin=0 amax=90 
+ ek=1 ms=1 npv=0 restart=n
+ finish velocity input
+ begin traveltime calculation
+getpar() call after checkpars(): surf
+
+rayt2d: sz[0]=0,nangl[0]=0
+
+rayt2d: sz[1]=0,nangl[1]=0
+
+rayt2d: sz[2]=0,nangl[2]=0
+
+rayt2d: sz[3]=0,nangl[3]=0
+
+rayt2d: sz[4]=0,nangl[4]=0
+
+rayt2d: sz[5]=0,nangl[5]=0
+
+rayt2d: sz[6]=0,nangl[6]=0
+
+rayt2d: sz[7]=0,nangl[7]=0
+
+rayt2d: sz[8]=0,nangl[8]=0
+
+rayt2d: sz[9]=0,nangl[9]=0
+
+rayt2d: sz[10]=0,nangl[10]=0
+
+rayt2d: sz[11]=0,nangl[11]=0
+
+rayt2d: sz[12]=0,nangl[12]=0
+
+rayt2d: sz[13]=0,nangl[13]=0
+
+rayt2d: sz[14]=0,nangl[14]=0
+
+rayt2d: sz[15]=0,nangl[15]=0
+
+rayt2d: sz[16]=0,nangl[16]=0
+
+rayt2d: sz[17]=0,nangl[17]=0
+
+rayt2d: sz[18]=0,nangl[18]=0
+
+rayt2d: sz[19]=0,nangl[19]=0
+
+rayt2d: sz[20]=0,nangl[20]=0
+
+rayt2d: sz[21]=0,nangl[21]=0
+
+rayt2d: sz[22]=0,nangl[22]=0
+
+rayt2d: sz[23]=0,nangl[23]=0
+
+rayt2d: sz[24]=0,nangl[24]=0
+
+rayt2d: sz[25]=0,nangl[25]=0
+
+rayt2d: sz[26]=0,nangl[26]=0
+
+rayt2d: sz[27]=0,nangl[27]=0
+
+rayt2d: sz[28]=0,nangl[28]=0
+
+rayt2d: sz[29]=0,nangl[29]=0
+
+rayt2d: sz[30]=0,nangl[30]=0
+
+rayt2d: sz[31]=0,nangl[31]=0
+
+rayt2d: sz[32]=0,nangl[32]=0
+
+rayt2d: sz[33]=0,nangl[33]=0
+
+rayt2d: sz[34]=0,nangl[34]=0
+
+rayt2d: sz[35]=0,nangl[35]=0
+
+rayt2d: sz[36]=0,nangl[36]=0
+
+rayt2d: sz[37]=0,nangl[37]=0
+
+rayt2d: sz[38]=0,nangl[38]=0
+
+rayt2d: sz[39]=0,nangl[39]=0
+
+rayt2d: sz[40]=0,nangl[40]=0
+
+rayt2d: sz[41]=0,nangl[41]=0
+
+rayt2d: sz[42]=0,nangl[42]=0
+
+rayt2d: sz[43]=0,nangl[43]=0
+
+rayt2d: sz[44]=0,nangl[44]=0
+
+rayt2d: sz[45]=0,nangl[45]=0
+
+rayt2d: sz[46]=0,nangl[46]=0
+
+rayt2d: sz[47]=0,nangl[47]=0
+
+rayt2d: sz[48]=0,nangl[48]=0
+
+rayt2d: sz[49]=0,nangl[49]=0
+
+rayt2d: sz[50]=0,nangl[50]=0
+
+rayt2d: sz[51]=0,nangl[51]=0
+
+rayt2d: sz[52]=0,nangl[52]=0
+
+rayt2d: sz[53]=0,nangl[53]=0
+
+rayt2d: sz[54]=0,nangl[54]=0
+
+rayt2d: sz[55]=0,nangl[55]=0
+
+rayt2d: sz[56]=0,nangl[56]=0
+
+rayt2d: sz[57]=0,nangl[57]=0
+
+rayt2d: sz[58]=0,nangl[58]=0
+
+rayt2d: sz[59]=0,nangl[59]=0
+
+rayt2d: sz[60]=0,nangl[60]=0
+
+rayt2d: sz[61]=0,nangl[61]=0
+
+rayt2d: sz[62]=0,nangl[62]=0
+
+rayt2d: sz[63]=0,nangl[63]=0
+
+rayt2d: sz[64]=0,nangl[64]=0
+
+rayt2d: sz[65]=0,nangl[65]=0
+
+rayt2d: sz[66]=0,nangl[66]=0
+
+rayt2d: sz[67]=0,nangl[67]=0
+
+rayt2d: sz[68]=0,nangl[68]=0
+
+rayt2d: sz[69]=0,nangl[69]=0
+
+rayt2d: sz[70]=0,nangl[70]=0
+
+rayt2d: sz[71]=0,nangl[71]=0
+
+rayt2d: sz[72]=0,nangl[72]=0
+
+rayt2d: sz[73]=0,nangl[73]=0
+
+rayt2d: sz[74]=0,nangl[74]=0
+
+rayt2d: sz[75]=0,nangl[75]=0
+
+rayt2d: sz[76]=0,nangl[76]=0
+
+rayt2d: sz[77]=0,nangl[77]=0
+
+rayt2d: sz[78]=0,nangl[78]=0
+
+rayt2d: sz[79]=0,nangl[79]=0
+
+rayt2d: sz[80]=0,nangl[80]=0
+
+rayt2d: sz[81]=0,nangl[81]=0
+
+rayt2d: sz[82]=0,nangl[82]=0
+
+rayt2d: sz[83]=0,nangl[83]=0
+
+rayt2d: sz[84]=0,nangl[84]=0
+
+rayt2d: sz[85]=0,nangl[85]=0
+
+rayt2d: sz[86]=0,nangl[86]=0
+
+rayt2d: sz[87]=0,nangl[87]=0
+
+rayt2d: sz[88]=0,nangl[88]=0
+
+rayt2d: sz[89]=0,nangl[89]=0
+
+rayt2d: sz[90]=0,nangl[90]=0
+
+rayt2d: sz[91]=0,nangl[91]=0
+
+rayt2d: sz[92]=0,nangl[92]=0
+
+rayt2d: sz[93]=0,nangl[93]=0
+
+rayt2d: sz[94]=0,nangl[94]=0
+
+rayt2d: sz[95]=0,nangl[95]=0
+
+rayt2d: sz[96]=0,nangl[96]=0
+
+rayt2d: sz[97]=0,nangl[97]=0
+
+rayt2d: sz[98]=0,nangl[98]=0
+
+rayt2d: sz[99]=0,nangl[99]=0
+
+rayt2d: sz[100]=0,nangl[100]=0
+
+rayt2d: sz[101]=0,nangl[101]=0
+
+rayt2d: sz[102]=0,nangl[102]=0
+
+rayt2d: sz[103]=0,nangl[103]=0
+
+rayt2d: sz[104]=0,nangl[104]=0
+
+rayt2d: sz[105]=0,nangl[105]=0
+
+rayt2d: sz[106]=0,nangl[106]=0
+
+rayt2d: sz[107]=0,nangl[107]=0
+
+rayt2d: sz[108]=0,nangl[108]=0
+
+rayt2d: sz[109]=0,nangl[109]=0
+
+rayt2d: sz[110]=0,nangl[110]=0
+
+rayt2d: sz[111]=0,nangl[111]=0
+
+rayt2d: sz[112]=0,nangl[112]=0
+
+rayt2d: sz[113]=0,nangl[113]=0
+
+rayt2d: sz[114]=0,nangl[114]=0
+
+rayt2d: sz[115]=0,nangl[115]=0
+
+rayt2d: sz[116]=0,nangl[116]=0
+
+rayt2d: sz[117]=0,nangl[117]=0
+
+rayt2d: sz[118]=0,nangl[118]=0
+
+rayt2d: sz[119]=0,nangl[119]=0
+
+rayt2d: sz[120]=0,nangl[120]=0
+
+rayt2d: sz[121]=0,nangl[121]=0
+
+rayt2d: sz[122]=0,nangl[122]=0
+
+rayt2d: sz[123]=0,nangl[123]=0
+
+rayt2d: sz[124]=0,nangl[124]=0
+
+rayt2d: sz[125]=0,nangl[125]=0
+
+rayt2d: sz[126]=0,nangl[126]=0
+
+rayt2d: sz[127]=0,nangl[127]=0
+
+rayt2d: sz[128]=0,nangl[128]=0
+
+rayt2d: sz[129]=0,nangl[129]=0
+
+rayt2d: sz[130]=0,nangl[130]=0
+
+rayt2d: sz[131]=0,nangl[131]=0
+
+rayt2d: sz[132]=0,nangl[132]=0
+
+rayt2d: sz[133]=0,nangl[133]=0
+
+rayt2d: sz[134]=0,nangl[134]=0
+
+rayt2d: sz[135]=0,nangl[135]=0
+
+rayt2d: sz[136]=0,nangl[136]=0
+
+rayt2d: sz[137]=0,nangl[137]=0
+
+rayt2d: sz[138]=0,nangl[138]=0
+
+rayt2d: sz[139]=0,nangl[139]=0
+
+rayt2d: sz[140]=0,nangl[140]=0
+
+rayt2d: sz[141]=0,nangl[141]=0
+
+rayt2d: sz[142]=0,nangl[142]=0
+
+rayt2d: sz[143]=0,nangl[143]=0
+
+rayt2d: sz[144]=0,nangl[144]=0
+
+rayt2d: sz[145]=0,nangl[145]=0
+
+rayt2d: sz[146]=0,nangl[146]=0
+
+rayt2d: sz[147]=0,nangl[147]=0
+
+rayt2d: sz[148]=0,nangl[148]=0
+
+rayt2d: sz[149]=0,nangl[149]=0
+
+rayt2d: sz[150]=0,nangl[150]=0
+
+rayt2d: sz[151]=0,nangl[151]=0
+
+rayt2d: sz[152]=0,nangl[152]=0
+
+rayt2d: sz[153]=0,nangl[153]=0
+
+rayt2d: sz[154]=0,nangl[154]=0
+
+rayt2d: sz[155]=0,nangl[155]=0
+
+rayt2d: sz[156]=0,nangl[156]=0
+
+rayt2d: sz[157]=0,nangl[157]=0
+
+rayt2d: sz[158]=0,nangl[158]=0
+
+rayt2d: sz[159]=0,nangl[159]=0
+
+rayt2d: sz[160]=0,nangl[160]=0
+
+rayt2d: sz[161]=0,nangl[161]=0
+
+rayt2d: sz[162]=0,nangl[162]=0
+
+rayt2d: sz[163]=0,nangl[163]=0
+
+rayt2d: sz[164]=0,nangl[164]=0
+
+rayt2d: sz[165]=0,nangl[165]=0
+
+rayt2d: sz[166]=0,nangl[166]=0
+
+rayt2d: sz[167]=0,nangl[167]=0
+
+rayt2d: sz[168]=0,nangl[168]=0
+
+rayt2d: sz[169]=0,nangl[169]=0
+
+rayt2d: sz[170]=0,nangl[170]=0
+
+rayt2d: sz[171]=0,nangl[171]=0
+
+rayt2d: sz[172]=0,nangl[172]=0
+
+rayt2d: sz[173]=0,nangl[173]=0
+
+rayt2d: sz[174]=0,nangl[174]=0
+
+rayt2d: sz[175]=0,nangl[175]=0
+
+rayt2d: sz[176]=0,nangl[176]=0
+
+rayt2d: sz[177]=0,nangl[177]=0
+
+rayt2d: sz[178]=0,nangl[178]=0
+
+rayt2d: sz[179]=0,nangl[179]=0
+
+rayt2d: sz[180]=0,nangl[180]=0
+
+rayt2d: sz[181]=0,nangl[181]=0
+
+rayt2d: sz[182]=0,nangl[182]=0
+
+rayt2d: sz[183]=0,nangl[183]=0
+
+rayt2d: sz[184]=0,nangl[184]=0
+
+rayt2d: sz[185]=0,nangl[185]=0
+
+rayt2d: sz[186]=0,nangl[186]=0
+
+rayt2d: sz[187]=0,nangl[187]=0
+
+rayt2d: sz[188]=0,nangl[188]=0
+
+rayt2d: sz[189]=0,nangl[189]=0
+
+rayt2d: sz[190]=0,nangl[190]=0
+
+rayt2d: sz[191]=0,nangl[191]=0
+
+rayt2d: sz[192]=0,nangl[192]=0
+
+rayt2d: sz[193]=0,nangl[193]=0
+
+rayt2d: sz[194]=0,nangl[194]=0
+
+rayt2d: sz[195]=0,nangl[195]=0
+
+rayt2d: sz[196]=0,nangl[196]=0
+
+rayt2d: sz[197]=0,nangl[197]=0
+
+rayt2d: sz[198]=0,nangl[198]=0
+
+rayt2d: sz[199]=0,nangl[199]=0
+
+rayt2d: sz[200]=0,nangl[200]=0
+
+rayt2d: sz[201]=0,nangl[201]=0
+
+rayt2d: sz[202]=0,nangl[202]=0
+
+rayt2d: sz[203]=0,nangl[203]=0
+
+rayt2d: sz[204]=0,nangl[204]=0
+
+rayt2d: sz[205]=0,nangl[205]=0
+
+rayt2d: sz[206]=0,nangl[206]=0
+
+rayt2d: sz[207]=0,nangl[207]=0
+
+rayt2d: sz[208]=0,nangl[208]=0
+
+rayt2d: sz[209]=0,nangl[209]=0
+
+rayt2d: sz[210]=0,nangl[210]=0
+
+rayt2d: sz[211]=0,nangl[211]=0
+
+rayt2d: sz[212]=0,nangl[212]=0
+
+rayt2d: sz[213]=0,nangl[213]=0
+
+rayt2d: sz[214]=0,nangl[214]=0
+
+rayt2d: sz[215]=0,nangl[215]=0
+
+rayt2d: sz[216]=0,nangl[216]=0
+
+rayt2d: sz[217]=0,nangl[217]=0
+
+rayt2d: sz[218]=0,nangl[218]=0
+
+rayt2d: sz[219]=0,nangl[219]=0
+
+rayt2d: sz[220]=0,nangl[220]=0
+
+rayt2d: sz[221]=0,nangl[221]=0
+
+rayt2d: sz[222]=0,nangl[222]=0
+
+rayt2d: sz[223]=0,nangl[223]=0
+
+rayt2d: sz[224]=0,nangl[224]=0
+
+rayt2d: sz[225]=0,nangl[225]=0
+
+rayt2d: sz[226]=0,nangl[226]=0
+
+rayt2d: sz[227]=0,nangl[227]=0
+
+rayt2d: sz[228]=0,nangl[228]=0
+
+rayt2d: sz[229]=0,nangl[229]=0
+
+rayt2d: sz[230]=0,nangl[230]=0
+
+rayt2d: sz[231]=0,nangl[231]=0
+
+rayt2d: sz[232]=0,nangl[232]=0
+
+rayt2d: sz[233]=0,nangl[233]=0
+
+rayt2d: sz[234]=0,nangl[234]=0
+
+rayt2d: sz[235]=0,nangl[235]=0
+
+rayt2d: sz[236]=0,nangl[236]=0
+
+rayt2d: sz[237]=0,nangl[237]=0
+
+rayt2d: sz[238]=0,nangl[238]=0
+
+rayt2d: sz[239]=0,nangl[239]=0
+
+rayt2d: sz[240]=0,nangl[240]=0
+
+rayt2d: sz[241]=0,nangl[241]=0
+
+rayt2d: sz[242]=0,nangl[242]=0
+
+rayt2d: sz[243]=0,nangl[243]=0
+
+rayt2d: sz[244]=0,nangl[244]=0
+
+rayt2d: sz[245]=0,nangl[245]=0
+
+rayt2d: sz[246]=0,nangl[246]=0
+
+rayt2d: sz[247]=0,nangl[247]=0
+
+rayt2d: sz[248]=0,nangl[248]=0
+
+rayt2d: sz[249]=0,nangl[249]=0
+
+rayt2d: sz[250]=0,nangl[250]=0
+
+rayt2d: sz[251]=0,nangl[251]=0
+
+rayt2d: sz[252]=0,nangl[252]=0
+
+rayt2d: sz[253]=0,nangl[253]=0
+
+rayt2d: sz[254]=0,nangl[254]=0
+
+rayt2d: sz[255]=0,nangl[255]=0
+
+rayt2d: sz[256]=0,nangl[256]=0
+
+rayt2d: sz[257]=0,nangl[257]=0
+
+rayt2d: sz[258]=0,nangl[258]=0
+
+rayt2d: sz[259]=0,nangl[259]=0
+
+rayt2d: sz[260]=0,nangl[260]=0
+
+rayt2d: sz[261]=0,nangl[261]=0
+
+rayt2d: sz[262]=0,nangl[262]=0
+
+rayt2d: sz[263]=0,nangl[263]=0
+
+rayt2d: sz[264]=0,nangl[264]=0
+
+rayt2d: sz[265]=0,nangl[265]=0
+
+rayt2d: sz[266]=0,nangl[266]=0
+
+rayt2d: sz[267]=0,nangl[267]=0
+
+rayt2d: sz[268]=0,nangl[268]=0
+
+rayt2d: sz[269]=0,nangl[269]=0
+
+rayt2d: sz[270]=0,nangl[270]=0
+
+rayt2d: sz[271]=0,nangl[271]=0
+
+rayt2d: sz[272]=0,nangl[272]=0
+
+rayt2d: sz[273]=0,nangl[273]=0
+
+rayt2d: sz[274]=0,nangl[274]=0
+
+rayt2d: sz[275]=0,nangl[275]=0
+
+rayt2d: sz[276]=0,nangl[276]=0
+
+rayt2d: sz[277]=0,nangl[277]=0
+
+rayt2d: sz[278]=0,nangl[278]=0
+
+rayt2d: sz[279]=0,nangl[279]=0
+
+rayt2d: sz[280]=0,nangl[280]=0
+
+rayt2d: sz[281]=0,nangl[281]=0
+
+rayt2d: sz[282]=0,nangl[282]=0
+
+rayt2d: sz[283]=0,nangl[283]=0
+
+rayt2d: sz[284]=0,nangl[284]=0
+
+rayt2d: sz[285]=0,nangl[285]=0
+
+rayt2d: sz[286]=0,nangl[286]=0
+
+rayt2d: sz[287]=0,nangl[287]=0
+
+rayt2d: sz[288]=0,nangl[288]=0
+
+rayt2d: sz[289]=0,nangl[289]=0
+
+rayt2d: sz[290]=0,nangl[290]=0
+
+rayt2d: sz[291]=0,nangl[291]=0
+
+rayt2d: sz[292]=0,nangl[292]=0
+
+rayt2d: sz[293]=0,nangl[293]=0
+
+rayt2d: sz[294]=0,nangl[294]=0
+
+rayt2d: sz[295]=0,nangl[295]=0
+
+rayt2d: sz[296]=0,nangl[296]=0
+
+rayt2d: sz[297]=0,nangl[297]=0
+
+rayt2d: sz[298]=0,nangl[298]=0
+
+rayt2d: sz[299]=0,nangl[299]=0
+
+rayt2d: sz[300]=0,nangl[300]=0
+
+rayt2d: sz[301]=0,nangl[301]=0
+
+rayt2d: sz[302]=0,nangl[302]=0
+
+rayt2d: sz[303]=0,nangl[303]=0
+
+rayt2d: sz[304]=0,nangl[304]=0
+
+rayt2d: sz[305]=0,nangl[305]=0
+
+rayt2d: sz[306]=0,nangl[306]=0
+
+rayt2d: sz[307]=0,nangl[307]=0
+
+rayt2d: sz[308]=0,nangl[308]=0
+
+rayt2d: sz[309]=0,nangl[309]=0
+
+rayt2d: sz[310]=0,nangl[310]=0
+
+rayt2d: sz[311]=0,nangl[311]=0
+
+rayt2d: sz[312]=0,nangl[312]=0
+
+rayt2d: sz[313]=0,nangl[313]=0
+
+rayt2d: sz[314]=0,nangl[314]=0
+
+rayt2d: sz[315]=0,nangl[315]=0
+
+rayt2d: sz[316]=0,nangl[316]=0
+
+rayt2d: sz[317]=0,nangl[317]=0
+
+rayt2d: sz[318]=0,nangl[318]=0
+
+rayt2d: sz[319]=0,nangl[319]=0
+
+rayt2d: sz[320]=0,nangl[320]=0
+
+rayt2d: sz[321]=0,nangl[321]=0
+
+rayt2d: sz[322]=0,nangl[322]=0
+
+rayt2d: sz[323]=0,nangl[323]=0
+
+rayt2d: sz[324]=0,nangl[324]=0
+
+rayt2d: sz[325]=0,nangl[325]=0
+
+rayt2d: sz[326]=0,nangl[326]=0
+
+rayt2d: sz[327]=0,nangl[327]=0
+
+rayt2d: sz[328]=0,nangl[328]=0
+
+rayt2d: sz[329]=0,nangl[329]=0
+
+rayt2d: sz[330]=0,nangl[330]=0
+
+rayt2d: sz[331]=0,nangl[331]=0
+
+rayt2d: sz[332]=0,nangl[332]=0
+
+rayt2d: sz[333]=0,nangl[333]=0
+
+rayt2d: sz[334]=0,nangl[334]=0
+
+rayt2d: sz[335]=0,nangl[335]=0
+
+rayt2d: sz[336]=0,nangl[336]=0
+
+rayt2d: sz[337]=0,nangl[337]=0
+
+rayt2d: sz[338]=0,nangl[338]=0
+
+rayt2d: sz[339]=0,nangl[339]=0
+
+rayt2d: sz[340]=0,nangl[340]=0
+
+rayt2d: sz[341]=0,nangl[341]=0
+
+rayt2d: sz[342]=0,nangl[342]=0
+
+rayt2d: sz[343]=0,nangl[343]=0
+
+rayt2d: sz[344]=0,nangl[344]=0
+
+rayt2d: sz[345]=0,nangl[345]=0
+
+rayt2d: sz[346]=0,nangl[346]=0
+
+rayt2d: sz[347]=0,nangl[347]=0
+
+rayt2d: sz[348]=0,nangl[348]=0
+
+rayt2d: sz[349]=0,nangl[349]=0
+
+rayt2d: sz[350]=0,nangl[350]=0
+
+rayt2d: sz[351]=0,nangl[351]=0
+
+rayt2d: sz[352]=0,nangl[352]=0
+
+rayt2d: sz[353]=0,nangl[353]=0
+
+rayt2d: sz[354]=0,nangl[354]=0
+
+rayt2d: sz[355]=0,nangl[355]=0
+
+rayt2d: sz[356]=0,nangl[356]=0
+
+rayt2d: sz[357]=0,nangl[357]=0
+
+rayt2d: sz[358]=0,nangl[358]=0
+
+rayt2d: sz[359]=0,nangl[359]=0
+
+rayt2d: sz[360]=0,nangl[360]=0
+
+rayt2d: sz[361]=0,nangl[361]=0
+
+rayt2d: sz[362]=0,nangl[362]=0
+
+rayt2d: sz[363]=0,nangl[363]=0
+
+rayt2d: sz[364]=0,nangl[364]=0
+
+rayt2d: sz[365]=0,nangl[365]=0
+
+rayt2d: sz[366]=0,nangl[366]=0
+
+rayt2d: sz[367]=0,nangl[367]=0
+
+rayt2d: sz[368]=0,nangl[368]=0
+
+rayt2d: sz[369]=0,nangl[369]=0
+
+rayt2d: sz[370]=0,nangl[370]=0
+
+rayt2d: sz[371]=0,nangl[371]=0
+
+rayt2d: sz[372]=0,nangl[372]=0
+
+rayt2d: sz[373]=0,nangl[373]=0
+
+rayt2d: sz[374]=0,nangl[374]=0
+
+rayt2d: sz[375]=0,nangl[375]=0
+
+rayt2d: sz[376]=0,nangl[376]=0
+
+rayt2d: sz[377]=0,nangl[377]=0
+
+rayt2d: sz[378]=0,nangl[378]=0
+
+rayt2d: sz[379]=0,nangl[379]=0
+
+rayt2d: sz[380]=0,nangl[380]=0
+
+rayt2d: sz[381]=0,nangl[381]=0
+
+rayt2d: sz[382]=0,nangl[382]=0
+
+rayt2d: sz[383]=0,nangl[383]=0
+
+rayt2d: sz[384]=0,nangl[384]=0
+
+rayt2d: sz[385]=0,nangl[385]=0
+
+rayt2d: sz[386]=0,nangl[386]=0
+
+rayt2d: sz[387]=0,nangl[387]=0
+
+rayt2d: sz[388]=0,nangl[388]=0
+
+rayt2d: sz[389]=0,nangl[389]=0
+
+rayt2d: sz[390]=0,nangl[390]=0
+
+rayt2d: sz[391]=0,nangl[391]=0
+
+rayt2d: sz[392]=0,nangl[392]=0
+
+rayt2d: sz[393]=0,nangl[393]=0
+
+rayt2d: sz[394]=0,nangl[394]=0
+
+rayt2d: sz[395]=0,nangl[395]=0
+
+rayt2d: sz[396]=0,nangl[396]=0
+
+rayt2d: sz[397]=0,nangl[397]=0
+
+rayt2d: sz[398]=0,nangl[398]=0
+
+rayt2d: sz[399]=0,nangl[399]=0
+
+rayt2d: sz[400]=0,nangl[400]=0
+
+rayt2d: sz[401]=0,nangl[401]=0
+
+rayt2d: sz[402]=0,nangl[402]=0
+
+rayt2d: sz[403]=0,nangl[403]=0
+
+rayt2d: sz[404]=0,nangl[404]=0
+
+rayt2d: sz[405]=0,nangl[405]=0
+
+rayt2d: sz[406]=0,nangl[406]=0
+
+rayt2d: sz[407]=0,nangl[407]=0
+
+rayt2d: sz[408]=0,nangl[408]=0
+
+rayt2d: sz[409]=0,nangl[409]=0
+
+rayt2d: sz[410]=0,nangl[410]=0
+
+rayt2d: sz[411]=0,nangl[411]=0
+
+rayt2d: sz[412]=0,nangl[412]=0
+
+rayt2d: sz[413]=0,nangl[413]=0
+
+rayt2d: sz[414]=0,nangl[414]=0
+
+rayt2d: sz[415]=0,nangl[415]=0
+
+rayt2d: sz[416]=0,nangl[416]=0
+
+rayt2d: sz[417]=0,nangl[417]=0
+
+rayt2d: sz[418]=0,nangl[418]=0
+
+rayt2d: sz[419]=0,nangl[419]=0
+
+rayt2d: sz[420]=0,nangl[420]=0
+
+rayt2d: sz[421]=0,nangl[421]=0
+
+rayt2d: sz[422]=0,nangl[422]=0
+
+rayt2d: sz[423]=0,nangl[423]=0
+
+rayt2d: sz[424]=0,nangl[424]=0
+
+rayt2d: sz[425]=0,nangl[425]=0
+
+rayt2d: sz[426]=0,nangl[426]=0
+
+rayt2d: sz[427]=0,nangl[427]=0
+
+rayt2d: sz[428]=0,nangl[428]=0
+
+rayt2d: sz[429]=0,nangl[429]=0
+
+rayt2d: sz[430]=0,nangl[430]=0
+
+rayt2d: sz[431]=0,nangl[431]=0
+
+rayt2d: sz[432]=0,nangl[432]=0
+
+rayt2d: sz[433]=0,nangl[433]=0
+
+rayt2d: sz[434]=0,nangl[434]=0
+
+rayt2d: sz[435]=0,nangl[435]=0
+
+rayt2d: sz[436]=0,nangl[436]=0
+
+rayt2d: sz[437]=0,nangl[437]=0
+
+rayt2d: sz[438]=0,nangl[438]=0
+
+rayt2d: sz[439]=0,nangl[439]=0
+
+rayt2d: sz[440]=0,nangl[440]=0
+
+rayt2d: sz[441]=0,nangl[441]=0
+
+rayt2d: sz[442]=0,nangl[442]=0
+
+rayt2d: sz[443]=0,nangl[443]=0
+
+rayt2d: sz[444]=0,nangl[444]=0
+
+rayt2d: sz[445]=0,nangl[445]=0
+
+rayt2d: sz[446]=0,nangl[446]=0
+
+rayt2d: sz[447]=0,nangl[447]=0
+
+rayt2d: sz[448]=0,nangl[448]=0
+
+rayt2d: sz[449]=0,nangl[449]=0
+
+rayt2d: sz[450]=0,nangl[450]=0
+
+rayt2d: sz[451]=0,nangl[451]=0
+
+rayt2d: sz[452]=0,nangl[452]=0
+
+rayt2d: sz[453]=0,nangl[453]=0
+
+rayt2d: sz[454]=0,nangl[454]=0
+
+rayt2d: sz[455]=0,nangl[455]=0
+
+rayt2d: sz[456]=0,nangl[456]=0
+
+rayt2d: sz[457]=0,nangl[457]=0
+
+rayt2d: sz[458]=0,nangl[458]=0
+
+rayt2d: sz[459]=0,nangl[459]=0
+
+rayt2d: sz[460]=0,nangl[460]=0
+
+rayt2d: sz[461]=0,nangl[461]=0
+
+rayt2d: sz[462]=0,nangl[462]=0
+
+rayt2d: sz[463]=0,nangl[463]=0
+
+rayt2d: sz[464]=0,nangl[464]=0
+
+rayt2d: sz[465]=0,nangl[465]=0
+
+rayt2d: sz[466]=0,nangl[466]=0
+
+rayt2d: sz[467]=0,nangl[467]=0
+
+rayt2d: sz[468]=0,nangl[468]=0
+
+rayt2d: sz[469]=0,nangl[469]=0
+
+rayt2d: sz[470]=0,nangl[470]=0
+
+rayt2d: sz[471]=0,nangl[471]=0
+
+rayt2d: sz[472]=0,nangl[472]=0
+
+rayt2d: sz[473]=0,nangl[473]=0
+
+rayt2d: sz[474]=0,nangl[474]=0
+
+rayt2d: sz[475]=0,nangl[475]=0
+
+rayt2d: sz[476]=0,nangl[476]=0
+
+rayt2d: sz[477]=0,nangl[477]=0
+
+rayt2d: sz[478]=0,nangl[478]=0
+
+rayt2d: sz[479]=0,nangl[479]=0
+
+rayt2d: sz[480]=0,nangl[480]=0
+
+rayt2d: sz[481]=0,nangl[481]=0
+
+rayt2d: sz[482]=0,nangl[482]=0
+
+rayt2d: sz[483]=0,nangl[483]=0
+
+rayt2d: sz[484]=0,nangl[484]=0
+
+rayt2d: sz[485]=0,nangl[485]=0
+
+rayt2d: sz[486]=0,nangl[486]=0
+
+rayt2d: sz[487]=0,nangl[487]=0
+
+rayt2d: sz[488]=0,nangl[488]=0
+
+rayt2d: sz[489]=0,nangl[489]=0
+
+rayt2d: sz[490]=0,nangl[490]=0
+
+rayt2d: sz[491]=0,nangl[491]=0
+
+rayt2d: sz[492]=0,nangl[492]=0
+
+rayt2d: sz[493]=0,nangl[493]=0
+
+rayt2d: sz[494]=0,nangl[494]=0
+
+rayt2d: sz[495]=0,nangl[495]=0
+
+rayt2d: sz[496]=0,nangl[496]=0
+
+rayt2d: sz[497]=0,nangl[497]=0
+
+rayt2d: sz[498]=0,nangl[498]=0
+
+rayt2d: sz[499]=0,nangl[499]=0
+ traveltime computed at source xs=0
+ traveltime computed at source xs=25
+ traveltime computed at source xs=50
+ traveltime computed at source xs=75
+ traveltime computed at source xs=100
+ traveltime computed at source xs=125
+ traveltime computed at source xs=150
+ traveltime computed at source xs=175
+ traveltime computed at source xs=200
+ traveltime computed at source xs=225
+ traveltime computed at source xs=250
+ traveltime computed at source xs=275
+ traveltime computed at source xs=300
+ traveltime computed at source xs=325
+ traveltime computed at source xs=350
+ traveltime computed at source xs=375
+ traveltime computed at source xs=400
+ traveltime computed at source xs=425
+ traveltime computed at source xs=450
+ traveltime computed at source xs=475
+ traveltime computed at source xs=500
+ traveltime computed at source xs=525
+ traveltime computed at source xs=550
+ traveltime computed at source xs=575
+ traveltime computed at source xs=600
+ traveltime computed at source xs=625
+ traveltime computed at source xs=650
+ traveltime computed at source xs=675
+ traveltime computed at source xs=700
+ traveltime computed at source xs=725
+ traveltime computed at source xs=750
+ traveltime computed at source xs=775
+ traveltime computed at source xs=800
+ traveltime computed at source xs=825
+ traveltime computed at source xs=850
+ traveltime computed at source xs=875
+ traveltime computed at source xs=900
+ traveltime computed at source xs=925
+ traveltime computed at source xs=950
+ traveltime computed at source xs=975
+ traveltime computed at source xs=1000
+ traveltime computed at source xs=1025
+ traveltime computed at source xs=1050
+ traveltime computed at source xs=1075
+ traveltime computed at source xs=1100
+ traveltime computed at source xs=1125
+ traveltime computed at source xs=1150
+ traveltime computed at source xs=1175
+ traveltime computed at source xs=1200
+ traveltime computed at source xs=1225
+ traveltime computed at source xs=1250
+ traveltime computed at source xs=1275
+ traveltime computed at source xs=1300
+ traveltime computed at source xs=1325
+ traveltime computed at source xs=1350
+ traveltime computed at source xs=1375
+ traveltime computed at source xs=1400
+ traveltime computed at source xs=1425
+ traveltime computed at source xs=1450
+ traveltime computed at source xs=1475
+ traveltime computed at source xs=1500
+ traveltime computed at source xs=1525
+ traveltime computed at source xs=1550
+ traveltime computed at source xs=1575
+ traveltime computed at source xs=1600
+ traveltime computed at source xs=1625
+ traveltime computed at source xs=1650
+ traveltime computed at source xs=1675
+ traveltime computed at source xs=1700
+ traveltime computed at source xs=1725
+ traveltime computed at source xs=1750
+ traveltime computed at source xs=1775
+ traveltime computed at source xs=1800
+ traveltime computed at source xs=1825
+ traveltime computed at source xs=1850
+ traveltime computed at source xs=1875
+ traveltime computed at source xs=1900
+ traveltime computed at source xs=1925
+ traveltime computed at source xs=1950
+ traveltime computed at source xs=1975
+ traveltime computed at source xs=2000
+ traveltime computed at source xs=2025
+ traveltime computed at source xs=2050
+ traveltime computed at source xs=2075
+ traveltime computed at source xs=2100
+ traveltime computed at source xs=2125
+ traveltime computed at source xs=2150
+ traveltime computed at source xs=2175
+ traveltime computed at source xs=2200
+ traveltime computed at source xs=2225
+ traveltime computed at source xs=2250
+ traveltime computed at source xs=2275
+ traveltime computed at source xs=2300
+ traveltime computed at source xs=2325
+ traveltime computed at source xs=2350
+ traveltime computed at source xs=2375
+ traveltime computed at source xs=2400
+ traveltime computed at source xs=2425
+ traveltime computed at source xs=2450
+ traveltime computed at source xs=2475
+ traveltime computed at source xs=2500
+ traveltime computed at source xs=2525
+ traveltime computed at source xs=2550
+ traveltime computed at source xs=2575
+ traveltime computed at source xs=2600
+ traveltime computed at source xs=2625
+ traveltime computed at source xs=2650
+ traveltime computed at source xs=2675
+ traveltime computed at source xs=2700
+ traveltime computed at source xs=2725
+ traveltime computed at source xs=2750
+ traveltime computed at source xs=2775
+ traveltime computed at source xs=2800
+ traveltime computed at source xs=2825
+ traveltime computed at source xs=2850
+ traveltime computed at source xs=2875
+ traveltime computed at source xs=2900
+ traveltime computed at source xs=2925
+ traveltime computed at source xs=2950
+ traveltime computed at source xs=2975
+ traveltime computed at source xs=3000
+ traveltime computed at source xs=3025
+ traveltime computed at source xs=3050
+ traveltime computed at source xs=3075
+ traveltime computed at source xs=3100
+ traveltime computed at source xs=3125
+ traveltime computed at source xs=3150
+ traveltime computed at source xs=3175
+ traveltime computed at source xs=3200
+ traveltime computed at source xs=3225
+ traveltime computed at source xs=3250
+ traveltime computed at source xs=3275
+ traveltime computed at source xs=3300
+ traveltime computed at source xs=3325
+ traveltime computed at source xs=3350
+ traveltime computed at source xs=3375
+ traveltime computed at source xs=3400
+ traveltime computed at source xs=3425
+ traveltime computed at source xs=3450
+ traveltime computed at source xs=3475
+ traveltime computed at source xs=3500
+ traveltime computed at source xs=3525
+ traveltime computed at source xs=3550
+ traveltime computed at source xs=3575
+ traveltime computed at source xs=3600
+ traveltime computed at source xs=3625
+ traveltime computed at source xs=3650
+ traveltime computed at source xs=3675
+ traveltime computed at source xs=3700
+ traveltime computed at source xs=3725
+ traveltime computed at source xs=3750
+ traveltime computed at source xs=3775
+ traveltime computed at source xs=3800
+ traveltime computed at source xs=3825
+ traveltime computed at source xs=3850
+ traveltime computed at source xs=3875
+ traveltime computed at source xs=3900
+ traveltime computed at source xs=3925
+ traveltime computed at source xs=3950
+ traveltime computed at source xs=3975
+ traveltime computed at source xs=4000
+ traveltime computed at source xs=4025
+ traveltime computed at source xs=4050
+ traveltime computed at source xs=4075
+ traveltime computed at source xs=4100
+ traveltime computed at source xs=4125
+ traveltime computed at source xs=4150
+ traveltime computed at source xs=4175
+ traveltime computed at source xs=4200
+ traveltime computed at source xs=4225
+ traveltime computed at source xs=4250
+ traveltime computed at source xs=4275
+ traveltime computed at source xs=4300
+ traveltime computed at source xs=4325
+ traveltime computed at source xs=4350
+ traveltime computed at source xs=4375
+ traveltime computed at source xs=4400
+ traveltime computed at source xs=4425
+ traveltime computed at source xs=4450
+ traveltime computed at source xs=4475
+ traveltime computed at source xs=4500
+ traveltime computed at source xs=4525
+ traveltime computed at source xs=4550
+ traveltime computed at source xs=4575
+ traveltime computed at source xs=4600
+ traveltime computed at source xs=4625
+ traveltime computed at source xs=4650
+ traveltime computed at source xs=4675
+ traveltime computed at source xs=4700
+ traveltime computed at source xs=4725
+ traveltime computed at source xs=4750
+ traveltime computed at source xs=4775
+ traveltime computed at source xs=4800
+ traveltime computed at source xs=4825
+ traveltime computed at source xs=4850
+ traveltime computed at source xs=4875
+ traveltime computed at source xs=4900
+ traveltime computed at source xs=4925
+ traveltime computed at source xs=4950
+ traveltime computed at source xs=4975
+ traveltime computed at source xs=5000
+ traveltime computed at source xs=5025
+ traveltime computed at source xs=5050
+ traveltime computed at source xs=5075
+ traveltime computed at source xs=5100
+ traveltime computed at source xs=5125
+ traveltime computed at source xs=5150
+ traveltime computed at source xs=5175
+ traveltime computed at source xs=5200
+ traveltime computed at source xs=5225
+ traveltime computed at source xs=5250
+ traveltime computed at source xs=5275
+ traveltime computed at source xs=5300
+ traveltime computed at source xs=5325
+ traveltime computed at source xs=5350
+ traveltime computed at source xs=5375
+ traveltime computed at source xs=5400
+ traveltime computed at source xs=5425
+ traveltime computed at source xs=5450
+ traveltime computed at source xs=5475
+ traveltime computed at source xs=5500
+ traveltime computed at source xs=5525
+ traveltime computed at source xs=5550
+ traveltime computed at source xs=5575
+ traveltime computed at source xs=5600
+ traveltime computed at source xs=5625
+ traveltime computed at source xs=5650
+ traveltime computed at source xs=5675
+ traveltime computed at source xs=5700
+ traveltime computed at source xs=5725
+ traveltime computed at source xs=5750
+ traveltime computed at source xs=5775
+ traveltime computed at source xs=5800
+ traveltime computed at source xs=5825
+ traveltime computed at source xs=5850
+ traveltime computed at source xs=5875
+ traveltime computed at source xs=5900
+ traveltime computed at source xs=5925
+ traveltime computed at source xs=5950
+ traveltime computed at source xs=5975
+ traveltime computed at source xs=6000
+ traveltime computed at source xs=6025
+ traveltime computed at source xs=6050
+ traveltime computed at source xs=6075
+ traveltime computed at source xs=6100
+ traveltime computed at source xs=6125
+ traveltime computed at source xs=6150
+ traveltime computed at source xs=6175
+ traveltime computed at source xs=6200
+ traveltime computed at source xs=6225
+ traveltime computed at source xs=6250
+ traveltime computed at source xs=6275
+ traveltime computed at source xs=6300
+ traveltime computed at source xs=6325
+ traveltime computed at source xs=6350
+ traveltime computed at source xs=6375
+ traveltime computed at source xs=6400
+ traveltime computed at source xs=6425
+ traveltime computed at source xs=6450
+ traveltime computed at source xs=6475
+ traveltime computed at source xs=6500
+ traveltime computed at source xs=6525
+ traveltime computed at source xs=6550
+ traveltime computed at source xs=6575
+ traveltime computed at source xs=6600
+ traveltime computed at source xs=6625
+ traveltime computed at source xs=6650
+ traveltime computed at source xs=6675
+ traveltime computed at source xs=6700
+ traveltime computed at source xs=6725
+ traveltime computed at source xs=6750
+ traveltime computed at source xs=6775
+ traveltime computed at source xs=6800
+ traveltime computed at source xs=6825
+ traveltime computed at source xs=6850
+ traveltime computed at source xs=6875
+ traveltime computed at source xs=6900
+ traveltime computed at source xs=6925
+ traveltime computed at source xs=6950
+ traveltime computed at source xs=6975
+ traveltime computed at source xs=7000
+ traveltime computed at source xs=7025
+ traveltime computed at source xs=7050
+ traveltime computed at source xs=7075
+ traveltime computed at source xs=7100
+ traveltime computed at source xs=7125
+ traveltime computed at source xs=7150
+ traveltime computed at source xs=7175
+ traveltime computed at source xs=7200
+ traveltime computed at source xs=7225
+ traveltime computed at source xs=7250
+ traveltime computed at source xs=7275
+ traveltime computed at source xs=7300
+ traveltime computed at source xs=7325
+ traveltime computed at source xs=7350
+ traveltime computed at source xs=7375
+ traveltime computed at source xs=7400
+ traveltime computed at source xs=7425
+ traveltime computed at source xs=7450
+ traveltime computed at source xs=7475
+ traveltime computed at source xs=7500
+ traveltime computed at source xs=7525
+ traveltime computed at source xs=7550
+ traveltime computed at source xs=7575
+ traveltime computed at source xs=7600
+ traveltime computed at source xs=7625
+ traveltime computed at source xs=7650
+ traveltime computed at source xs=7675
+ traveltime computed at source xs=7700
+ traveltime computed at source xs=7725
+ traveltime computed at source xs=7750
+ traveltime computed at source xs=7775
+ traveltime computed at source xs=7800
+ traveltime computed at source xs=7825
+ traveltime computed at source xs=7850
+ traveltime computed at source xs=7875
+ traveltime computed at source xs=7900
+ traveltime computed at source xs=7925
+ traveltime computed at source xs=7950
+ traveltime computed at source xs=7975
+ traveltime computed at source xs=8000
+ traveltime computed at source xs=8025
+ traveltime computed at source xs=8050
+ traveltime computed at source xs=8075
+ traveltime computed at source xs=8100
+ traveltime computed at source xs=8125
+ traveltime computed at source xs=8150
+ traveltime computed at source xs=8175
+ traveltime computed at source xs=8200
+ traveltime computed at source xs=8225
+ traveltime computed at source xs=8250
+ traveltime computed at source xs=8275
+ traveltime computed at source xs=8300
+ traveltime computed at source xs=8325
+ traveltime computed at source xs=8350
+ traveltime computed at source xs=8375
+ traveltime computed at source xs=8400
+ traveltime computed at source xs=8425
+ traveltime computed at source xs=8450
+ traveltime computed at source xs=8475
+ traveltime computed at source xs=8500
+ traveltime computed at source xs=8525
+ traveltime computed at source xs=8550
+ traveltime computed at source xs=8575
+ traveltime computed at source xs=8600
+ traveltime computed at source xs=8625
+ traveltime computed at source xs=8650
+ traveltime computed at source xs=8675
+ traveltime computed at source xs=8700
+ traveltime computed at source xs=8725
+ traveltime computed at source xs=8750
+ traveltime computed at source xs=8775
+ traveltime computed at source xs=8800
+ traveltime computed at source xs=8825
+ traveltime computed at source xs=8850
+ traveltime computed at source xs=8875
+ traveltime computed at source xs=8900
+ traveltime computed at source xs=8925
+ traveltime computed at source xs=8950
+ traveltime computed at source xs=8975
+ traveltime computed at source xs=9000
+ traveltime computed at source xs=9025
+ traveltime computed at source xs=9050
+ traveltime computed at source xs=9075
+ traveltime computed at source xs=9100
+ traveltime computed at source xs=9125
+ traveltime computed at source xs=9150
+ traveltime computed at source xs=9175
+ traveltime computed at source xs=9200
+ traveltime computed at source xs=9225
+ traveltime computed at source xs=9250
+ traveltime computed at source xs=9275
+ traveltime computed at source xs=9300
+ traveltime computed at source xs=9325
+ traveltime computed at source xs=9350
+ traveltime computed at source xs=9375
+ traveltime computed at source xs=9400
+ traveltime computed at source xs=9425
+ traveltime computed at source xs=9450
+ traveltime computed at source xs=9475
+ traveltime computed at source xs=9500
+ traveltime computed at source xs=9525
+ traveltime computed at source xs=9550
+ traveltime computed at source xs=9575
+ traveltime computed at source xs=9600
+ traveltime computed at source xs=9625
+ traveltime computed at source xs=9650
+ traveltime computed at source xs=9675
+ traveltime computed at source xs=9700
+ traveltime computed at source xs=9725
+ traveltime computed at source xs=9750
+ traveltime computed at source xs=9775
+ traveltime computed at source xs=9800
+ traveltime computed at source xs=9825
+ traveltime computed at source xs=9850
+ traveltime computed at source xs=9875
+ traveltime computed at source xs=9900
+ traveltime computed at source xs=9925
+ traveltime computed at source xs=9950
+ traveltime computed at source xs=9975
+ traveltime computed at source xs=10000
+ traveltime computed at source xs=10025
+ traveltime computed at source xs=10050
+ traveltime computed at source xs=10075
+ traveltime computed at source xs=10100
+ traveltime computed at source xs=10125
+ traveltime computed at source xs=10150
+ traveltime computed at source xs=10175
+ traveltime computed at source xs=10200
+ traveltime computed at source xs=10225
+ traveltime computed at source xs=10250
+ traveltime computed at source xs=10275
+ traveltime computed at source xs=10300
+ traveltime computed at source xs=10325
+ traveltime computed at source xs=10350
+ traveltime computed at source xs=10375
+ traveltime computed at source xs=10400
+ traveltime computed at source xs=10425
+ traveltime computed at source xs=10450
+ traveltime computed at source xs=10475
+ traveltime computed at source xs=10500
+ traveltime computed at source xs=10525
+ traveltime computed at source xs=10550
+ traveltime computed at source xs=10575
+ traveltime computed at source xs=10600
+ traveltime computed at source xs=10625
+ traveltime computed at source xs=10650
+ traveltime computed at source xs=10675
+ traveltime computed at source xs=10700
+ traveltime computed at source xs=10725
+ traveltime computed at source xs=10750
+ traveltime computed at source xs=10775
+ traveltime computed at source xs=10800
+ traveltime computed at source xs=10825
+ traveltime computed at source xs=10850
+ traveltime computed at source xs=10875
+ traveltime computed at source xs=10900
+ traveltime computed at source xs=10925
+ traveltime computed at source xs=10950
+ traveltime computed at source xs=10975
+ traveltime computed at source xs=11000
+ traveltime computed at source xs=11025
+ traveltime computed at source xs=11050
+ traveltime computed at source xs=11075
+ traveltime computed at source xs=11100
+ traveltime computed at source xs=11125
+ traveltime computed at source xs=11150
+ traveltime computed at source xs=11175
+ traveltime computed at source xs=11200
+ traveltime computed at source xs=11225
+ traveltime computed at source xs=11250
+ traveltime computed at source xs=11275
+ traveltime computed at source xs=11300
+ traveltime computed at source xs=11325
+ traveltime computed at source xs=11350
+ traveltime computed at source xs=11375
+ traveltime computed at source xs=11400
+ traveltime computed at source xs=11425
+ traveltime computed at source xs=11450
+ traveltime computed at source xs=11475
+ traveltime computed at source xs=11500
+ traveltime computed at source xs=11525
+ traveltime computed at source xs=11550
+ traveltime computed at source xs=11575
+ traveltime computed at source xs=11600
+ traveltime computed at source xs=11625
+ traveltime computed at source xs=11650
+ traveltime computed at source xs=11675
+ traveltime computed at source xs=11700
+ traveltime computed at source xs=11725
+ traveltime computed at source xs=11750
+ traveltime computed at source xs=11775
+ traveltime computed at source xs=11800
+ traveltime computed at source xs=11825
+ traveltime computed at source xs=11850
+ traveltime computed at source xs=11875
+ traveltime computed at source xs=11900
+ traveltime computed at source xs=11925
+ traveltime computed at source xs=11950
+ traveltime computed at source xs=11975
+ traveltime computed at source xs=12000
+ traveltime computed at source xs=12025
+ traveltime computed at source xs=12050
+ traveltime computed at source xs=12075
+ traveltime computed at source xs=12100
+ traveltime computed at source xs=12125
+ traveltime computed at source xs=12150
+ traveltime computed at source xs=12175
+ traveltime computed at source xs=12200
+ traveltime computed at source xs=12225
+ traveltime computed at source xs=12250
+ traveltime computed at source xs=12275
+ traveltime computed at source xs=12300
+ traveltime computed at source xs=12325
+ traveltime computed at source xs=12350
+ traveltime computed at source xs=12375
+ traveltime computed at source xs=12400
+ traveltime computed at source xs=12425
+ traveltime computed at source xs=12450
+ traveltime computed at source xs=12475
+ finish program rayt2d
+
+
+real	0m14.749s
+user	0m7.208s
+sys	0m0.176s
+ fxt=0.000000 fxo=0.000000 
+ ext=12475.000000 exo=12475.000000 
+ fzt=0.000000 fzo=0.000000 
+ ezt=6225.000000 ezo=6220.000000 
+ es=12475.000000 
+ 
+
+ Migration parameters
+ ================
+ infile=../dat/shots.su 
+ outfile=../dat/mig_kirchhoff.su 
+ ttfile=../dat/travTime.bin 
+ 
+ nzt=250 fzt=0 dzt=25
+ nxt=500 fxt=0 dxt=25
+ ns=500 fs=0 ds=25
+ 
+ nzo=1245 fzo=0 dzo=5
+ nxo=500 fxo=0 dxo=25
+ 
+ nt=3201 ft=0 dt=0.003125 
+ dxm=25 fmax=80
+ noff=1 off0=0 doff=99999
+ v0=1500 dvz=0 
+ aperx=6250 offmax=3000 angmax=60
+ ntr=250000 mtr=100 ls=1 npv=0
+ absoff=0 limoff=0
+ ================
+
+sukdmig2d: ealloc.c: malloc failed (Cannot allocate memory)
+
+real	0m0.021s
+user	0m0.000s
+sys	0m0.004s
