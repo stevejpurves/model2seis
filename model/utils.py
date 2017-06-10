@@ -15,16 +15,16 @@ def extractSlicesFromBlock(model, steps, filename_stub):
     for n in range(0, model.shape[1], steps[0]):
         slice = np.transpose(np.squeeze(model[:,n,:]))
         filename = filename_stub+'xz'+str(n)
-        saveAsPng(fig, ax,slice, filename)
-        np.save(filename+'.npz', slice.astype(float))
+        #saveAsPng(fig, ax,slice, filename)
+        np.save(filename, slice.astype(float))
         #with open(filename+'.su', 'wb+') as f:
           #  f.write(slice.byteswap().tobytes())
     # save out y-z sections
     for n in range(0, model.shape[2], steps[1]):
         slice = np.transpose(np.squeeze(model[:,:,n]))
         filename=filename_stub+'yz'+str(n);
-        saveAsPng(fig, ax, slice, filename)
-        np.save(filename+'.npz', slice.astype(float))
+        #saveAsPng(fig, ax, slice, filename)
+        np.save(filename, slice.astype(float))
         # with open(filename+'.su', 'wb+') as f:
         #    f.write(slice.astype(float).byteswap().tobytes())
             
