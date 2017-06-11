@@ -29,13 +29,22 @@ class Visualizer():
             idx = 1
             for label, image_numpy in visuals.items():
                 #image_numpy = np.flipud(image_numpy)
-                self.vis.image(image_numpy.transpose([2,0,1]), opts=dict(title=label),
+		print image_numpy.shape
+		print image_numpy.__class__
+                img_emb = np.zeros([200, 200, 3])
+                img_emb[:, :, 0] = image_numpy[:, :, 0]
+                self.vis.image(img_emb.transpose([2,0,1]), opts=dict(title=label),
                                    win=self.display_id + idx)
                 idx += 1
 
         if self.use_html: # save images to a html file
             for label, image_numpy in visuals.items():
-                img_path = os.path.join(self.img_dir, 'epoch%.3d_%s.png' % (epoch, label))
+		#print image_numpy.__class__
+                #img_emb = np.zeros([200, 200, 3])
+                #img_emb[:, :, 0] = image_numpy[:, :, 0]
+                #image_numpy = img_emb
+                #print image_numpy.__class__
+		img_path = os.path.join(self.img_dir, 'epoch%.3d_%s.png' % (epoch, label))
                 util.save_image(image_numpy, img_path)
             # update website
             webpage = html.HTML(self.web_dir, 'Experiment name = %s' % self.name, reflesh=1)

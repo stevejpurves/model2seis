@@ -17,6 +17,7 @@ class OneDirectionTestModel(BaseModel):
         self.input_A = self.Tensor(nb, opt.input_nc, size, size)
 
         assert(not self.isTrain)
+        print(opt.input_nc, opt.output_nc)
         self.netG_A = networks.define_G(opt.input_nc, opt.output_nc,
                                         opt.ngf, opt.which_model_netG,
                                         opt.norm, opt.use_dropout,
@@ -24,7 +25,7 @@ class OneDirectionTestModel(BaseModel):
         which_epoch = opt.which_epoch
         #AtoB = self.opt.which_direction == 'AtoB'
         #which_network = 'G_A' if AtoB else 'G_B'
-        self.load_network(self.netG_A, 'G', which_epoch)
+        self.load_network(self.netG_A, 'G_A', which_epoch)
 
         print('---------- Networks initialized -------------')
         networks.print_network(self.netG_A)

@@ -6,6 +6,7 @@ import inspect, re
 import numpy as np
 import os
 import collections
+from scipy.misc import imsave
 
 # Converts a Tensor into a Numpy array
 # |imtype|: the desired type of the converted numpy array
@@ -29,8 +30,10 @@ def diagnose_network(net, name='network'):
 
 
 def save_image(image_numpy, image_path):
-    image_pil = Image.fromarray(image_numpy)
-    image_pil.save(image_path)
+    #image_pil = Image.fromarray(image_numpy, 'L')
+    #image_pil.save(image_path)
+    print(image_numpy.shape)
+    imsave(image_path, image_numpy[:, :, 0].astype(np.uint8))
 
 def info(object, spacing=10, collapse=1):
     """Print methods and doc strings.
