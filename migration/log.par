@@ -1553,6 +1553,6 @@ sys	0m0.176s
 
 sukdmig2d: ealloc.c: malloc failed (Cannot allocate memory)
 
-real	0m0.021s
-user	0m0.000s
-sys	0m0.004s
+real	0 migrated 94974 traces in total
+ 
+ output done
