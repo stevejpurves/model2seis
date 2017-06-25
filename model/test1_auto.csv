@@ -1,0 +1,5 @@
+event,parameter,type,mean,+-,name
+2,Wavelength,normal,5000.0,750,fold
+2,Amplitude,normal,1250.0,375,fold
+3,Wavelength,normal,5000.0,750,fold
+3,Amplitude,normal,1250.0,375,fold

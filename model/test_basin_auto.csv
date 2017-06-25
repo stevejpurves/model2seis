@@ -1,0 +1,15 @@
+event,parameter,type,mean,+-,name
+3,Wavelength,normal,14000.0,2100,fold
+3,Amplitude,normal,2000.0,600,fold
+2,Plunge,normal,0.0,5,tilt
+2,Plunge Direction,normal,60.0,9,tilt
+2,Rotation,normal,6.0,1,tilt
+6,Dip,normal,45.0,7,shear zone
+6,Dip Direction,normal,150.0,23,shear zone
+6,Slip,normal,-19000.0,8550,shear zone
+7,Dip,normal,70.0,11,shear zone
+7,Dip Direction,normal,200.0,30,shear zone
+7,Slip,normal,3000.0,1350,shear zone
+8,Dip,normal,90.0,14,shear zone
+8,Dip Direction,normal,160.0,24,shear zone
+8,Slip,normal,-5000.0,2250,shear zone

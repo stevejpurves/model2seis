@@ -1,0 +1,20 @@
+event,parameter,type,mean,+-,name
+6,Dip,vonmises,70.0,11,fault
+6,Dip Direction,vonmises,0.0,0,fault
+6,Slip,vonmises,1320.0,594,fault
+7,Dip,vonmises,80.0,12,fault
+7,Dip Direction,vonmises,180.0,27,fault
+7,Slip,vonmises,943.0,425,fault
+8,Dip,vonmises,65.0,10,fault
+8,Dip Direction,vonmises,175.0,27,fault
+8,Slip,vonmises,943.0,425,fault
+2,Dip,normal,0.0,5,unconformity
+2,Dip Direction,normal,90.0,14,unconformity
+3,Dip,normal,0.0,5,unconformity
+3,Dip Direction,normal,90.0,14,unconformity
+4,Dip,normal,0.0,5,unconformity
+4,Dip Direction,normal,90.0,14,unconformity
+9,Dip,normal,0.0,5,unconformity
+9,Dip Direction,normal,90.0,14,unconformity
+5,Wavelength,normal,4000.0,600,fold
+5,Amplitude,normal,350.0,105,fold

@@ -1,0 +1,8 @@
+event,parameter,type,mean,+-,name
+2,Wavelength,normal,4000.0,600,fold
+2,Amplitude,normal,4000.0,1200,fold
+3,Wavelength,normal,4000.0,600,fold
+3,Amplitude,normal,1000.0,300,fold
+4,Plunge,normal,0.0,5,tilt
+4,Plunge Direction,normal,90.0,14,tilt
+4,Rotation,normal,90.0,7,tilt

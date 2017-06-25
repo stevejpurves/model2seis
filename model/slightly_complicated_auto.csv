@@ -1,0 +1,11 @@
+event,parameter,type,mean,+-,name
+2,Dip,vonmises,90.0,14,fault
+2,Dip Direction,vonmises,135.0,21,fault
+2,Slip,vonmises,2000.0,900,fault
+5,Dip,vonmises,62.0,10,fault
+5,Dip Direction,vonmises,0.0,0,fault
+5,Slip,vonmises,2000.0,900,fault
+4,Dip,normal,0.0,5,unconformity
+4,Dip Direction,normal,90.0,14,unconformity
+3,Wavelength,normal,6087.0,914,fold
+3,Amplitude,normal,1000.0,300,fold
