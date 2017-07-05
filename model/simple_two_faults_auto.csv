@@ -1,0 +1,7 @@
+event,parameter,type,mean,+-,name
+2,Dip,vonmises,60.0,9,fault
+2,Dip Direction,vonmises,90.0,14,fault
+2,Slip,vonmises,1000.0,450,fault
+3,Dip,vonmises,60.0,9,fault
+3,Dip Direction,vonmises,270.0,41,fault
+3,Slip,vonmises,1000.0,450,fault
