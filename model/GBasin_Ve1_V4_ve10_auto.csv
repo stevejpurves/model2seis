@@ -1,0 +1,34 @@
+event,parameter,type,mean,+-,name
+4,Dip,vonmises,70.0,11,fault
+4,Dip Direction,vonmises,270.0,41,fault
+4,Slip,vonmises,-100.0,45,fault
+5,Dip,vonmises,70.0,11,fault
+5,Dip Direction,vonmises,286.0,43,fault
+5,Slip,vonmises,-100.0,45,fault
+7,Dip,vonmises,70.0,11,fault
+7,Dip Direction,vonmises,180.0,27,fault
+7,Slip,vonmises,500.0,225,fault
+8,Dip,vonmises,45.0,7,fault
+8,Dip Direction,vonmises,10.0,2,fault
+8,Slip,vonmises,500.0,225,fault
+10,Dip,vonmises,70.0,11,fault
+10,Dip Direction,vonmises,286.0,43,fault
+10,Slip,vonmises,200.0,90,fault
+11,Dip,vonmises,70.0,11,fault
+11,Dip Direction,vonmises,270.0,41,fault
+11,Slip,vonmises,200.0,90,fault
+3,Dip,normal,0.0,5,unconformity
+3,Dip Direction,normal,90.0,14,unconformity
+6,Dip,normal,0.0,5,unconformity
+6,Dip Direction,normal,90.0,14,unconformity
+9,Dip,normal,0.0,5,unconformity
+9,Dip Direction,normal,90.0,14,unconformity
+12,Dip,normal,1.0,0,unconformity
+12,Dip Direction,normal,180.0,27,unconformity
+2,Wavelength,normal,15000.0,2250,fold
+2,Amplitude,normal,500.0,150,fold
+14,Wavelength,normal,17000.0,2550,fold
+14,Amplitude,normal,500.0,150,fold
+13,Plunge,normal,0.0,5,tilt
+13,Plunge Direction,normal,48.0,8,tilt
+13,Rotation,normal,358.0,27,tilt
